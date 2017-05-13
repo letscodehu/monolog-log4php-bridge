@@ -1,0 +1,22 @@
+{
+    "name": "letscodehu/monolog-log4php-bridge",
+    "require": {
+        "apache/log4php" : "2.3",
+        "psr/log" : "^1.0"
+    },
+    "version" : "1.0.0",
+    "autoload" : {
+      "psr-4" : {
+       "Letscodehu\\" : "src/"
+      }
+    },
+    "authors": [
+        {
+            "name": "Papp Krisztián",
+            "email": "fejlesztes@letscode.hu"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    }
+}
